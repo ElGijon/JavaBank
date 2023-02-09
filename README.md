@@ -18,11 +18,11 @@ O sistema deveria permitir que os dados fossem inseridos via terminal sendo que 
 
 ## The Project / O Projeto
 
-In this banking system project, the user can perform operations such as: creating an account, depositing money, withdrawing money, and checking the account balance.
+This project uses the Scanner class from the java.util package to get input from the user and the Random class from the same package to generate random numbers. The main class, BankSystem, implements a menu-driven interface for a user to perform various banking operations like creating an account, depositing money, withdrawing money, checking balance, and quitting the system. The program uses the Account class to store the details of a bank account like the agency number, account number, account holder's name, and balance. The BankSystem class has a method named "findAccount" that takes an account number and an array of Account objects, and returns the Account object with the matching account number. The program uses a switch statement to perform the corresponding action based on the user's choice.
 
 -------------------------
 
-Em meu projeto de sistema bancário, o usuário pode realizar operações tais como: criação de conta, depósito bancário, saque e checar o saldo.
+Este projecto utiliza a classe Scanner do pacote java.util para receber a informação do usuário e a classe Random do mesmo pacote para gerar números aleatórios. A classe principal, BankSystem, implementa uma interface guiada por menus para que o utilizador possa realizar várias operações bancárias como criar uma conta, depositar dinheiro, sacar dinheiro, verificar saldo, e abandonar o sistema. O programa utiliza a classe Account para armazenar os detalhes de uma conta bancária como o número da agência, número da conta, nome do titular da conta, e saldo. A classe BankSystem tem um método chamado "findAccount" que leva um número de conta e um array de objetos Account, e devolve o objeto Account com o número de conta correspondente. O programa utiliza um "switch statement" para executar a ação correspondente com base na escolha do usuário.
 
 ## Improvements / Melhorias
 
