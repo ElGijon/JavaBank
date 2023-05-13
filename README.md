@@ -1,4 +1,4 @@
-# BankSystem / SistemaBancário
+# Java BankSystem / SistemaBancário Java
 
 This project was developed within Digital Innovation One's Java Developer training course.
 
